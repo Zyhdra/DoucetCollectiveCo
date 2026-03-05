@@ -42,7 +42,6 @@ export default function ContactPage() {
           <Link href="/contact" className="text-xs tracking-[0.2em] uppercase text-white/60 hover:text-[#c9a96e] transition-colors duration-300">
             Contact
           </Link>
-          <h1>HELLO FROM UPDATED SITE</h1>
         </div>
       </nav>
 
