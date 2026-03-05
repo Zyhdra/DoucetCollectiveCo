@@ -901,18 +901,18 @@ export default function ShopPage() {
   return (
     <main className="min-h-screen bg-[#0a0a0a] text-white">
       {/* Navigation */}
-      <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 bg-[#0a0a0a]/70 backdrop-blur-md border border-white/5 rounded-full px-8 py-3 flex items-center gap-10">
+      <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 bg-[#0a0a0a]/70 backdrop-blur-md border border-white/5 rounded-full px-6 py-2 flex items-center gap-8">
         <Link href="/" className="font-display text-lg tracking-[0.35em] uppercase text-[#c9a96e]">
           Doucet Collective
         </Link>
-        <div className="hidden md:flex items-center gap-8">
-          <Link href="/shop" className="text-sm tracking-[0.2em] uppercase text-[#c9a96e] transition-colors duration-300">
+        <div className="hidden md:flex items-center gap-6">
+          <Link href="/shop" className="text-xs tracking-[0.2em] uppercase text-white/60 hover:text-[#c9a96e] transition-colors duration-300">
             Shop
           </Link>
-          <Link href="/about" className="text-sm tracking-[0.2em] uppercase text-white/60 hover:text-[#c9a96e] transition-colors duration-300">
+          <Link href="/about" className="text-xs tracking-[0.2em] uppercase text-white/60 hover:text-[#c9a96e] transition-colors duration-300">
             About
           </Link>
-          <Link href="/contact" className="text-sm tracking-[0.2em] uppercase text-white/60 hover:text-[#c9a96e] transition-colors duration-300">
+          <Link href="/contact" className="text-xs tracking-[0.2em] uppercase text-white/60 hover:text-[#c9a96e] transition-colors duration-300">
             Contact
           </Link>
         </div>
